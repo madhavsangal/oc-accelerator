@@ -163,47 +163,49 @@ const MainMenu: FC<MainMenuProps> = ({ loginDisclosure }) => {
                 {`Welcome, ${user?.FirstName} ${user?.LastName}`}
               </Heading>
             )}
-            <Button
-              as={RouterLink}
-              to="/cart"
-              variant="outline"
-              size="sm"
-              leftIcon={
-                totalQuantity !== 0 ? (
-                  <Box position="relative" mt="2px" mr="2px" lineHeight="1">
-                    <Box
-                      id="cartCountFrame"
-                      top="5px"
-                      left="6px"
-                      position="absolute"
-                      height="9px"
-                      width="15px"
-                      display="flex"
-                      alignItems="center"
-                      justifyContent="center"
-                    >
-                      <Text
-                        fontSize=".5rem"
-                        color="white"
-                        fontWeight="bold"
-                        letterSpacing="-.5px"
+            {isLoggedIn && (
+              <Button
+                as={RouterLink}
+                to="/cart"
+                variant="outline"
+                size="sm"
+                leftIcon={
+                  totalQuantity !== 0 ? (
+                    <Box position="relative" mt="2px" mr="2px" lineHeight="1">
+                      <Box
+                        id="cartCountFrame"
+                        top="5px"
+                        left="6px"
+                        position="absolute"
+                        height="9px"
+                        width="15px"
+                        display="flex"
+                        alignItems="center"
+                        justifyContent="center"
                       >
-                        {totalQuantity}
-                      </Text>
-                    </Box>
+                        <Text
+                          fontSize=".5rem"
+                          color="white"
+                          fontWeight="bold"
+                          letterSpacing="-.5px"
+                        >
+                          {totalQuantity}
+                        </Text>
+                      </Box>
 
-                    <Icon
-                      fontSize="lg"
-                      as={TbShoppingCartFilled}
-                      color="gray.500"
-                    />
-                  </Box>
-                ) : undefined
-              }
-              aria-label={`Link to cart`}
-            >
-              Cart
-            </Button>
+                      <Icon
+                        fontSize="lg"
+                        as={TbShoppingCartFilled}
+                        color="gray.500"
+                      />
+                    </Box>
+                  ) : undefined
+                }
+                aria-label={`Link to cart`}
+              >
+                Cart
+              </Button>
+            )}
             {isLoggedIn ? (
               <Button size="sm" onClick={logout}>
                 Logout

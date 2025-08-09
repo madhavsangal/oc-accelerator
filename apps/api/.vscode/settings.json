@@ -1,7 +1,1 @@
-{
-    "azureFunctions.deploySubpath": "Accelerator.Functions/bin/Release/net8.0/publish",
-    "azureFunctions.projectLanguage": "C#",
-    "azureFunctions.projectRuntime": "~4",
-    "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.preDeployTask": "publish (functions)"
-}
+{"azureFunctions.deploySubpath":"Accelerator.Functions/bin/Release/net8.0/publish","azureFunctions.projectLanguage":"C#","azureFunctions.projectRuntime":"~4","debug.internalConsoleOptions":"neverOpen","azureFunctions.preDeployTask":"publish (functions)","azureFunctions.defaultFunctionAppToDeploy":"/subscriptions/504c3491-fefc-445a-8fc0-250b329c5a57/resourceGroups/spo-reference-store/providers/Microsoft.Web/sites/eozolw-api-ygctopkfddqes"}

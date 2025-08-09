@@ -46,7 +46,7 @@ const BRAND_COLOR_ACCENT =
 // Dashboard configs
 const DASHBOARD_HERO_TAGLINE =
   import.meta.env.VITE_APP_ORDERCLOUD_DASHBOARD_HERO_TAGLINE ||
-  `Welcome to ${APP_NAME} storefront app`;
+  `Scania Parts Online Reference Store`;
 const DASHBOARD_HERO_IMAGE = import.meta.env
   .VITE_APP_ORDERCLOUD_DASHBOARD_HERO_IMAGE;
 const DASHBOARD_HERO_CTA_TEXT =
@@ -59,10 +59,10 @@ const DASHBOARD_SECONDARY_IMAGE = import.meta.env
   .VITE_APP_ORDERCLOUD_DASHBOARD_SECONDARY_IMAGE;
 const DASHBOARD_SECONDARY_HEADING =
   import.meta.env.VITE_APP_ORDERCLOUD_DASHBOARD_SECONDARY_HEADING ||
-  "Secondary heading text";
+  "Warehouse";
 const DASHBOARD_SECONDARY_DESCRIPTION =
   import.meta.env.VITE_APP_ORDERCLOUD_DASHBOARD_SECONDARY_DESCRIPTION ||
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  "Scania Parts and our strong service organization are helping to improve customers’ operating economy and increase vehicle uptime. With Scania as supplier of services and spare parts, customers are able to focus more on their business assignments instead of repairs and maintenance.";
 const DASHBOARD_SECONDARY_CTA_TEXT =
   import.meta.env.VITE_APP_ORDERCLOUD_DASHBOARD_SECONDARY_CTA_TEXT ||
   "Call to action";
@@ -73,10 +73,10 @@ const DASHBOARD_TERTIARY_IMAGE = import.meta.env
   .VITE_APP_ORDERCLOUD_DASHBOARD_TERTIARY_IMAGE;
 const DASHBOARD_TERTIARY_HEADING =
   import.meta.env.VITE_APP_ORDERCLOUD_DASHBOARD_TERTIARY_HEADING ||
-  "Tertiary heading text";
+  "You are always moving";
 const DASHBOARD_TERTIARY_DESCRIPTION =
   import.meta.env.VITE_APP_ORDERCLOUD_DASHBOARD_TERTIARY_DESCRIPTION ||
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  "Scania’s Genuine Parts have been developed to meet the most stringent requirements on function and quality, as well as service life and reliability. All components are tested to give highest possible performance, service life and best operating economy to the Customer.";
 const DASHBOARD_TERTIARY_CTA_TEXT =
   import.meta.env.VITE_APP_ORDERCLOUD_DASHBOARD_TERTIARY_CTA_TEXT ||
   "Call to action";
